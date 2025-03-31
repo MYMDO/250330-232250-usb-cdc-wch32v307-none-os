@@ -1,0 +1,63 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/wm/Documents/PlatformIO/Projects/250330-232250-usb-cdc-wch32v307-none-os/include",
+                "/home/wm/Documents/PlatformIO/Projects/250330-232250-usb-cdc-wch32v307-none-os/src",
+                "/home/wm/Documents/PlatformIO/Projects/250330-232250-usb-cdc-wch32v307-none-os/src/UART",
+                "/home/wm/Documents/PlatformIO/Projects/250330-232250-usb-cdc-wch32v307-none-os/src/USB_Device",
+                "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Core/ch32v30x",
+                "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v30x/inc",
+                "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v30x/src",
+                "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Startup",
+                "/home/wm/.platformio/packages/framework-wch-noneos-sdk/System/ch32v30x",
+                "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Debug/ch32v30x",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/wm/Documents/PlatformIO/Projects/250330-232250-usb-cdc-wch32v307-none-os/include",
+                    "/home/wm/Documents/PlatformIO/Projects/250330-232250-usb-cdc-wch32v307-none-os/src",
+                    "/home/wm/Documents/PlatformIO/Projects/250330-232250-usb-cdc-wch32v307-none-os/src/UART",
+                    "/home/wm/Documents/PlatformIO/Projects/250330-232250-usb-cdc-wch32v307-none-os/src/USB_Device",
+                    "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Core/ch32v30x",
+                    "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v30x/inc",
+                    "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Peripheral/ch32v30x/src",
+                    "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Startup",
+                    "/home/wm/.platformio/packages/framework-wch-noneos-sdk/System/ch32v30x",
+                    "/home/wm/.platformio/packages/framework-wch-noneos-sdk/Debug/ch32v30x",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "CH32V30x_C",
+                "CH32V307VC",
+                "CH32V30X",
+                "CH32V30x",
+                "CH32V307",
+                "CH32V30x_D8C",
+                "__PIO_CPP_SUPPORT__",
+                ""
+            ],
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++17",
+            "compilerPath": "/home/wm/.platformio/packages/toolchain-riscv/bin/riscv-none-embed-gcc",
+            "compilerArgs": [
+                "-msmall-data-limit=8",
+                "-msave-restore",
+                "-march=rv32imacxw",
+                "-mabi=ilp32",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
